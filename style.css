@@ -1,0 +1,106 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #CBDED3;  /* soft green */
+  color: #3B6255;             /* deep forest green */
+}
+
+/* HEADER & NAV */
+header {
+  background: #3B6255; /* dark green */
+  color: white;
+  padding: 1em 0;
+}
+
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 1.5em;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #D2C49E;  /* tan highlight */
+}
+
+/* HERO SECTION */
+.hero {
+  background-color: #E2DFDA;  /* soft beige */
+  padding: 2em;
+  max-width: 800px;
+  margin: 2em auto;
+  border-left: 5px solid #D2C49E;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* CASE STUDY SECTIONS */
+.case-study section {
+  background-color: #E2DFDA;
+  padding: 1.5em;
+  margin: 1em auto;
+  max-width: 800px;
+  border-radius: 8px;
+  border-left: 6px solid #8BA49A;
+}
+
+.case-study h3 {
+  color: #3B6255;
+  margin-bottom: 0.5em;
+}
+
+/* BUTTONS & LINKS */
+a.button {
+  display: inline-block;
+  background-color: #8BA49A;
+  color: white;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+}
+
+a.button:hover {
+  background-color: #3B6255;
+}
+
+/* FOOTER */
+footer {
+  background: #3B6255;
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+  margin-top: 3em;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
